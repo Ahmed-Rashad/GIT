@@ -1,0 +1,31 @@
+                                                        GIT
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Commit except file             git add .  git reset filename  git commit -m "commit message"
+
+
+discard unstaged files         git clean -f -d 
+
+git checkout   ------> move head to point you  checked out and copy data from repository to index and working area
+
+git rm file   ------>  remove file from index
+
+git rm file --cached  ------>  remove file but keep in working area
+
+git rm file -f  ------>  force remove file from working area
+
+git rebase ------> remove current commit and make it the head
+
+git reset --hard ===> remove from repository to index and working area
+
+git reset --mixed ===> remove from repository to index and keep working area
+
+git reset --soft ===>  
+
+git stash --include-untracked ===>  keep file in stash to git it back whent to modify on it 
+
+git blame ===> show where the line in file coming from
+
+
+git remote rm “alias or origin” ==> delete repository 
